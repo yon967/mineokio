@@ -5,7 +5,7 @@ on:
 
 jobs:
   setup-rdp-tunnel:
-    runs-on: windows-2025
+    runs-on: windows-latest
 
     steps:
     - name: Check out the repository
